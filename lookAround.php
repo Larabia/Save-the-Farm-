@@ -17,29 +17,19 @@
        }
        break;
 
-       case $location==="kitchen":
+       case $location==="bathroom":
+       echo "Normal bathroom. There's a mirror here. You can get back out to the *kitchen*. You sense a magic presence in the toilet, but you decide to ignore it.\n";
+       break;
+
+       case $location==="woods":
+       echo "These woods aren't actually that terrifying. Unless you're afraid of mushrooms. There's millions of them here!\nYou see the path leading back to your cabin's *kitchen*.\n";
+       break;
+
      }
 
    } else {
      echo "It's really hard to make out any details...\n";
    }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-}
-  
-  
-  
-  
   
   
   
