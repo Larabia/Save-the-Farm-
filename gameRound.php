@@ -46,6 +46,9 @@ function gameRound(){
         case "pick mushrooms":
             pickMushrooms();
             break;
+       case "pick crazy mushrooms":
+            pickCrazyMushrooms();
+            break;
        case "cook":
             cookSoup();
             break;

@@ -21,6 +21,7 @@ include "changeLocation.php";
 include "lookAround.php";
 
 include "pickMushrooms.php";
+include "pickCrazyMushrooms.php";
 include "cookSoup.php";
 include "eatSoup.php";
 
@@ -69,6 +70,9 @@ gameRound();
 
 // Game Is Over
 echo "\n**********ATTENTION***********\n The game is over!" ;
+
+
+
 
 
 
